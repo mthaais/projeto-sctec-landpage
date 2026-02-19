@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #6c63ff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Seções */
+section {
+    background-color: white;
+    width: 80%;
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+/* Títulos */
+h2 {
+    color: #6c63ff;
+    margin-bottom: 10px;
+}
+
+/* Texto */
+p {
+    line-height: 1.6;
+}
+
+/* Imagem */
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10%;
+    display: block;
+    margin-top: 15px;
+}
+
+/* Listas */
+ul {
+    margin-left: 20px;
+}
+
+/* Projetos */
+.projeto {
+    margin-top: 15px;
+    padding: 15px;
+    border: 3px solid #ddd;
+    border-radius: 6px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #eeeeee;
+}
+
+/* Botão */
+button {
+    background-color: #ff6584;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #e14e6f;
+}
